@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS + JavaScript Interactive Demo</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Dynamic Styling and Functions Demo</h1>
+    </header>
+
+    <main>
+      <!-- Part 1: CSS Transitions and Animations -->
+      <section>
+        <h2>Part 1: CSS Transitions and Animations</h2>
+        <button class="transition-btn">Hover Me</button>
+        <div class="animated-box">I slide and fade</div>
+      </section>
+
+      <!-- Part 2: JavaScript Functions -->
+      <section>
+        <h2>Part 2: JavaScript Functions</h2>
+        <p>
+          Open the console to see scope, parameters, and return values in
+          action.
+        </p>
+        <button id="calcBtn">Calculate Area</button>
+        <p id="areaResult"></p>
+      </section>
+
+      <!-- Part 3: Combining CSS and JavaScript -->
+      <section>
+        <h2>Part 3: Combining CSS Animations with JavaScript</h2>
+        <button id="animateBtn">Animate Box</button>
+        <div id="jsBox" class="box">Animate Me</div>
+
+        <button id="modalBtn">Open Modal</button>
+        <div id="modal" class="modal">
+          <div class="modal-content">
+            <p>This is a popup modal with slide/fade animation.</p>
+            <button id="closeModal">Close</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
